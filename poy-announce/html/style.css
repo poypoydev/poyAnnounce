@@ -1,0 +1,57 @@
+body {
+    background-color: transparent !important;
+}
+
+
+.maincon {
+    display: none;
+    width: 400px;
+    height: 185px;
+    background-color: #ffffff;
+    background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+    position: absolute;
+    left: 13%;
+    top: 36%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+
+}
+
+
+.logo {
+    width: 30px;
+    height: auto;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.topbar {
+    position: absolute;
+    background-color: #000000;
+    width: 100%;
+    height: 25%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.anons {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%, -50%);
+}
+
+.mainte {
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 25%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
